@@ -1,0 +1,175 @@
+body {
+  background-color: black;
+  color: white !important;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.a-logo {
+  margin-top: -20px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.a-logo p {
+  margin-top: -35px;
+  margin-left: 45px;
+}
+
+.menu-head {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.head-01 {
+  background-color: #3d3a39;
+  display: flex;
+  height: 60px;
+}
+
+.input-head {
+  margin-left: 1100px;
+  width: 200px;
+  text-align: start;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-color: #fff;
+  color: #fff;
+  background-color: #828080;
+}
+
+.input-head::placeholder {
+  color: #fff;
+}
+
+.sidebar a {
+  display: block;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  height: max-content;
+  width: fit-content;
+  text-decoration: none !important;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sidebar a svg {
+  margin-right: 10px;
+}
+
+.sidebar a:hover {
+  fill: #f2762f !important;
+  color: #f2762f !important;
+  stroke: #f2762f !important;
+}
+.sidebar {
+  background-color: #3d3a39;
+  width: 15%;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  height: 100vh;
+  margin: 0px;
+}
+
+.main h1 {
+  height: max-content;
+  margin-left: 40px;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.courses {
+  margin-left: 50px;
+}
+
+.courses h4 {
+  margin-left: 84%;
+  margin-top: -30px;
+  font-size: 14px;
+}
+
+.courses h3 {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.cards-courses {
+  display: flex;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  height: 200px;
+  width: 350px;
+  border: 2px solid #fff;
+  border-radius: 22px;
+  background-image: url("../imgs/image_IA.png");
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 23px;
+  position: relative;
+}
+
+.circle {
+  margin: 20px 0px 0px 20px;
+}
+.p-curso {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 4px;
+  color: #837d7d;
+}
+
+.p-tec {
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.card-bottom {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 15px;
+  gap: 6px;
+}
+
+.teste {
+  position: absolute;
+}
+
+.card-bottom p {
+  border: 2px solid #424242;
+  border-radius: 15px;
+  padding: 0px 5px 0px 5px;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #c6c6c6;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.csharp {
+  padding: 0px 20px !important;
+}
+
+.card-bottom p svg {
+  margin-top: 3px;
+}

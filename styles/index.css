@@ -1,0 +1,102 @@
+body,
+html {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #f2762f, black);
+}
+
+.container-login {
+  width: 68%;
+  height: 480px;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin-left: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  display: flex;
+  color: #fff;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.logo p {
+  margin-top: 48px;
+  margin-left: -60px;
+  font-size: 14px;
+}
+
+.before-form h6 {
+  font-size: 14px;
+  margin-top: 70px;
+  margin-bottom: -10px;
+  margin-left: 50px;
+  color: #c4c4cc;
+}
+
+.before-form {
+  margin-top: -45px;
+}
+
+.form {
+  margin-left: 50px;
+  margin-top: 20px;
+  color: #c4c4cc;
+}
+
+.container-login h1 {
+  margin-left: 38%;
+  margin-top: 70px;
+}
+
+.lb-name {
+  display: block;
+}
+
+.input {
+  background-color: #29292e;
+  color: #fff;
+  padding: 6px;
+  padding-left: 10px;
+  width: 80%;
+  height: 30px;
+  border: 2px solid #29292e;
+  border-radius: 8px;
+}
+
+.name {
+  margin-bottom: 30px;
+}
+
+.before-form p {
+  color: #f2762f;
+  text-transform: lowercase;
+  margin-left: 60px;
+  width: max-content;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.before-form p:hover {
+  color: #fff;
+}
+
+.btn-login {
+  background-color: #f2762f;
+  color: #fff;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.div-a {
+  margin-left: 83px;
+  margin-top: 35px;
+}
