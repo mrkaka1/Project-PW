@@ -5,7 +5,7 @@ html {
   width: 100vw;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom right, #f2762f, black);
+  background: linear-gradient(to bottom right, #f2762f, black) no-repeat;
 }
 
 .container-login {
@@ -43,7 +43,7 @@ html {
 }
 
 .form {
-  margin-left: 50px;
+  margin-left: 12%;
   margin-top: 20px;
   color: #c4c4cc;
 }
@@ -89,11 +89,12 @@ html {
   background-color: #f2762f;
   color: #fff;
   text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
+  margin-left: 10%;
 }
 
 .div-a {
